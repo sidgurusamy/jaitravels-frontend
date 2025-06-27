@@ -10,7 +10,7 @@ import { useModal } from "../common/ModalContext.jsx";
 const Layout = () => {
   const location = useLocation();
   const { showModal, setShowModal } = useModal();
-  const isHome = location.pathname === "/" || location.pathname === "/home";
+  const isHome = location.pathname === "/";
 
   return (
     <div className="relative min-h-screen flex flex-col justify-between">

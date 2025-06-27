@@ -11,7 +11,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 1024);
 const isBookActive = location.pathname === "/book" && location.hash?.includes("book-");
-  const isHome = location.pathname === "/" || location.pathname === "/home";
+  const isHome = location.pathname === "/";
 const isBookPage = location.pathname === "/book";
 const isBookHash = location.hash?.includes("book-");
   // Scroll detection
@@ -51,7 +51,7 @@ useEffect(() => {
   }`;
 
   const navItems = [
-    { name: "Home", href: "/home" },
+    { name: "Home", href: "/" },
     { name: "Destinations", href: "/destinations" },
     { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },
@@ -71,7 +71,7 @@ const bookItems = [
 <div className="container mx-auto flex items-center justify-between px-4 py-3">
   {/* Logo Left */}
   <div className="flex-shrink-0">
-    <Link to="/home">
+    <Link to="/">
       <img
         src={isTransparent ? `https://res.cloudinary.com/dlcdfwygd/image/upload/v1750912787/logowbg_r50syl.png` : `https://res.cloudinary.com/dlcdfwygd/image/upload/v1750912786/logobbg_zosdzl.png`}
         alt="Jai Travels Logo"

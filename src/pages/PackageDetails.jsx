@@ -102,7 +102,7 @@ function PackageDetails() {
       </div>
 
       {/* Tabs */}
-      <div className="flex overflow-x-auto gap-3 mb-6">
+      <div className="flex overflow-x-auto scrollbar-hide gap-3 mb-6">
         {selectedTabs.map((tab) => (
           <button key={tab} onClick={() => setActiveTab(tab)} className={`px-4 py-2 text-md capitalize ${activeTab === tab ? 'bg-primary text-white' : 'bg-gray-100 text-gray-700'}`}>{tab}</button>
         ))}

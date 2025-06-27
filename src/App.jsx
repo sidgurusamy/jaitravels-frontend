@@ -33,7 +33,6 @@ function App() {
         <Routes>
           <Route element={<Layout/>}>
       <Route path="/" element={<LandingPage />} />
-      <Route path="/home" element={<LandingPage />} />
       <Route path="/destinations" element={<SearchPackages />} />
       <Route path='/services' element={<Services />} />
       <Route path="/packages" element={<SearchPackages />} />

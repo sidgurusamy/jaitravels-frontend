@@ -13,7 +13,7 @@ function NotFound() {
         We can't seem to find the page you're looking for.
       </p>
       <button
-        onClick={() => navigate('/home')}
+        onClick={() => navigate('/')}
         className="bg-primary hover:bg-white hover:text-primary border border-primary transition-colors duration-300 px-6 py-3 text-white font-semibold"
       >
         GO TO HOME PAGE
