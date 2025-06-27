@@ -11,7 +11,7 @@ function Footer() {
       },
       {
         icon: FaPhoneAlt,
-        value: "647 500-5071",
+        value: "+1 (647) 500-5071",
       },
       {
         icon: FaLocationDot,
@@ -44,7 +44,7 @@ function Footer() {
           <h3 className="text-base font-semibold">Follow</h3>
           <div className="flex gap-4 text-2xl">
             <a
-              href="https://facebook.com/yourpage"
+              href="https://www.facebook.com/profile.php?id=100079670882058"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:text-primary transition"
@@ -52,7 +52,7 @@ function Footer() {
               <FiFacebook />
             </a>
             <a
-              href="https://instagram.com/yourprofile"
+              href="https://www.instagram.com/jai.travels_?igsh=MWY0NzNjeDgzNTRyaQ=="
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:text-primary transition"
@@ -60,7 +60,7 @@ function Footer() {
               <FaInstagram />
             </a>
                         <a
-              href="https://wa.me/your-number"
+              href="https://wa.me/+16475005071"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:text-primary transition"
