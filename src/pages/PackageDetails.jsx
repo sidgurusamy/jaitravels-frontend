@@ -79,7 +79,9 @@ function PackageDetails() {
             </button>
           </div>
           <div className="flex justify-end mb-4">
-            <a href={`https://wa.me/?text=${encodeURIComponent(`Check out this travel package: ${pkg.packageName} https://jaitravels.ca/packages/${pkg.pId}`)}`}
+            <a href={`https://wa.me/16475005071?text=${encodeURIComponent(
+    `Check out this travel package: ${pkg.packageName} https://jaitravels.ca/packages/${pkg.pId}`
+  )}`}
               target="_blank" rel="noreferrer"
               className="flex items-center gap-2 bg-green-500 text-white px-4 py-2 rounded-full text-sm md:text-base">
               <FaWhatsapp /> Share
