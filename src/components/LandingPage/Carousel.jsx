@@ -77,7 +77,7 @@ const { ref, inView } = useInView({
   {/* Explore Button */}
 <div
   onClick={() => navigate("/packages")}
-  className="absolute bottom-16 left-1/4 md:left-21 z-30 cursor-pointer w-fit"
+  className="absolute bottom-16 left-1/4 md:left-1/3 z-30 cursor-pointer w-fit"
 >
   <div className="flex items-center justify-center gap-3 bg-white px-5 py-3 rounded-full shadow-md hover:shadow-xl transition">
     <p className="text-black font-poppins text-sm sm:text-base">Explore Packages</p>
