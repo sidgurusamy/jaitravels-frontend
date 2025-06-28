@@ -75,7 +75,7 @@ const handleSubmit = async (e) => {
               />
               <button
                 type="submit"
-                className={`bg-[#f5793b] text-white px-7 py-2 rounded-r-lg transition ${
+                className={`bg-[#f5793b] text-white px-4 py-2 rounded-r-lg transition ${
                   loading ? "opacity-50 cursor-not-allowed" : ""
                 }`}
                 disabled={loading}
