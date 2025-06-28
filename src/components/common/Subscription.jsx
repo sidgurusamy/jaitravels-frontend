@@ -65,17 +65,17 @@ const handleSubmit = async (e) => {
               <IoMail /> Subscribed!
             </button>
           ) : (
-            <form onSubmit={handleSubmit} className="flex">
+            <form onSubmit={handleSubmit} className="flex w-full">
               <input
                 type="email"
                 placeholder="Your Email Address"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="flex-1 pl-2 border border-gray-300 rounded-l-lg focus:outline-none"
+                className="flex-1 px-4 py-2 border border-gray-300 rounded-l-lg focus:outline-none"
               />
               <button
                 type="submit"
-                className={`bg-[#f5793b] text-white px-5 py-2 rounded-r-lg transition ${
+                className={`bg-[#f5793b] text-white px-4 py-2 rounded-r-lg transition ${
                   loading ? "opacity-50 cursor-not-allowed" : ""
                 }`}
                 disabled={loading}
