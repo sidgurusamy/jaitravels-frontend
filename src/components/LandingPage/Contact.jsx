@@ -32,7 +32,7 @@ function Contact() {
       <h2 className="text-2xl md:text-3xl font-semibold font-playfair tracking-wider mb-3">
         CONTACT US
       </h2>
-      <p className="font-poppins text-lg mb-8">
+      <p className="font-poppins text-gray-600 text-lg mb-8">
         Have a question or need help planning your next adventure? Reach out to us!
       </p>
 
